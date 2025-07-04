@@ -1,0 +1,47 @@
+# 编译输出
+*.exe
+*.out
+*.test
+incident_response
+incident_response_*
+
+# 测试覆盖率文件
+coverage.out
+coverage.html
+
+# Go 工作空间文件
+go.work
+go.work.sum
+
+# 依赖目录
+vendor/
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# 报告文件
+reports/
+*.html
+
+# 安全扫描结果
+gosec.sarif
+*.sarif
+
+# 构建产物
+build/
+dist/
